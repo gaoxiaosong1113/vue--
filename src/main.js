@@ -1,5 +1,10 @@
 import Vue from 'vue'
 import App from './App'
+
+// 引入静态资源
+require('./assets/css/styleC.css')
+
+// 引入组件
 import hello from './components/Hello.vue'
 import VueRouter from 'vue-router'
 

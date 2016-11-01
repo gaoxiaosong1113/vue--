@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="37px" height="38px" viewBox="0 0 37 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>取消关注</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="案例" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="bevel">
+        <g id="设计师-copy" transform="translate(-555.000000, -265.000000)" stroke="#61676F" stroke-width="2">
+            <g id="取消关注" transform="translate(556.000000, 266.000000)">
+                <path d="M13.6003355,18.8326452 C10.4927226,17.3101935 8.33736774,13.995871 8.33736774,10.152 C8.33736774,4.86580645 12.4134968,0.580645161 17.4407226,0.580645161 C22.4679484,0.580645161 26.5440774,4.86580645 26.5440774,10.152 C26.5440774,13.9854194 24.4003355,17.2927742 21.3043355,18.8210323" id="Stroke-1"></path>
+                <path d="M13.5838452,18.2235484 L13.4468129,20.2790323 C13.3806194,21.2754194 12.8046194,22.1684516 11.9243613,22.6399355 L3.70939355,27.0435484 C2.33094194,27.7832903 1.39610323,29.1431613 1.19752258,30.6946452 L0.658683871,34.9275484 L25.3175226,34.9275484" id="Stroke-3"></path>
+                <path d="M21.3873677,18.2235484 L21.5244,20.2790323 C21.5905935,21.2754194 22.1665935,22.1684516 23.0468516,22.6399355 L28.2029806,25.4038065" id="Stroke-5"></path>
+                <path d="M27.9102866,35.35965 L35.036932,28.364615" id="Stroke-7"></path>
+                <path d="M28.0995045,35.35965 L35.0897134,28.4561847" id="Stroke-7" transform="translate(31.594609, 31.907917) scale(-1, 1) translate(-31.594609, -31.907917) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
