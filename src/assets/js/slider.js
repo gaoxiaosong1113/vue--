@@ -1,3 +1,4 @@
+var $ = require('expose?jQuery!jquery')
 var Slider = {
   isScrolling: false,
   newClass: function (obj) {
@@ -57,7 +58,6 @@ var Slider = {
       _this.minWidth = 0
     }
     _this.options.slideBox.style.width = _this.winWidth * _this.options.sMain.length + 'px'
-    _this.options.slideBox.style.width = _this.winWidth * _this.options.sMain.length + 'px'
     for (var i = 0; i < _this.options.sMain.length; i++) {
       _this.options.sMain[i].style.width = _this.winWidth + 'px'
     }
@@ -73,8 +73,7 @@ var Slider = {
     })
     _this.newCss(_this.options.sMain, {
       'float': 'left',
-      'z-index': '3',
-      'height': _this.options.slideBox.offsetHeight + 'px'
+      'z-index': '3'
     })
   },
   bindTouch: function () {
@@ -256,3 +255,4 @@ var Slider = {
     }
   }
 }
+export default Slider

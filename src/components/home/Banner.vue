@@ -15,14 +15,12 @@
   </div>
 </template>
 <script>
-  import 'jquery'
-  import Slider from '../../assets/js/slider.js'
-
+  var Slider = require('../../assets/js/slider')
   export default {
     name: 'banner',
     mounted () {
       console.log(Slider)
-      Slider.newClass({
+      Slider.default.newClass({
         slide: document.querySelector('.slide'),
         item: 0,
         switch: true,

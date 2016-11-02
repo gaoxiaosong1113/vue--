@@ -27,16 +27,17 @@ module.exports = {
       'src': path.resolve(__dirname, '../src'),
       'assets': path.resolve(__dirname, '../src/assets'),
       'components': path.resolve(__dirname, '../src/components'),
-      'jquery': path.resolve(__dirname, '../node_modules/jquery/dist/jquery.min')
+      'jquery': 'jquery'
     }
   },
   resolveLoader: {
     fallback: [path.join(__dirname, '../node_modules')]
   },
   plugins: [
+    new webpack.optimize.CommonsChunkPlugin('common.js'),
     new webpack.ProvidePlugin({
-      jQuery: "jquery",
-      $: "jquery"
+      $: "jquery",
+      jQuery: "jquery"
     })
   ],
   module: {
@@ -55,6 +56,12 @@ module.exports = {
       }
     ],
     loaders: [
+      {
+        // 得到jquery模块的绝对路径
+        test: require.resolve('jquery'),
+        // 将jquery绑定为window.jQuery
+        loader: 'expose?jQuery'
+      },
       {
         test: /\.vue$/,
         loader: 'vue'
