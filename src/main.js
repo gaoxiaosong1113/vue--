@@ -11,8 +11,8 @@ import Hello from './components/Hello.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  {path: '/', component: App},
-  {path: '/a', component: Hello}
+  {path: '/', name: 'index', component: App},
+  {path: '/a', name: 'a', component: Hello}
 ]
 // 3. 创建 router 实例，然后传 `routes` 配置
 // 你还可以传别的配置参数, 不过先这么简单着吧。

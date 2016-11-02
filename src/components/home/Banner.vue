@@ -19,7 +19,6 @@
   export default {
     name: 'banner',
     mounted () {
-      console.log(Slider)
       Slider.default.newClass({
         slide: document.querySelector('.slide'),
         item: 0,
