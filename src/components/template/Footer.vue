@@ -4,7 +4,7 @@
     <div class="wxc-nav">
       <div class="wxc-copyright-footer">
         <router-link v-bind:to="'/'" class="skong-nav-home wxc-nav-content"><i class="wxc-icon wxc-icon-home" v-bind:class="{'hot': $route.path==='/'}"></i>首页</router-link>
-        <router-link v-bind:to="'/a'" class="skong-nav-home wxc-nav-content"><i class="wxc-icon wxc-icon-case" v-bind:class="{'hot': $route.path==='/a'}"></i>案例</router-link>
+        <router-link v-bind:to="'/case'" class="skong-nav-home wxc-nav-content"><i class="wxc-icon wxc-icon-case" v-bind:class="{'hot': $route.path==='/case'}"></i>案例</router-link>
         <div class="skong-nav-home wxc-nav-content"><i class="wxc-icon wxc-icon-designer"></i>设计师</div>
         <div class="skong-nav-home wxc-nav-content"><i class="wxc-icon wxc-icon-tribal"></i>部落</div>
         <div class="skong-nav-home wxc-nav-content"><i class="wxc-icon wxc-icon-me"></i>我的</div>

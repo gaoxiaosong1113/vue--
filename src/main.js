@@ -6,13 +6,13 @@ require('./assets/css/styleC.css')
 import 'jquery'
 // 引入组件
 import App from './App'
-import Hello from './components/Hello.vue'
+import Case from './components/case/Case.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {path: '/', name: 'index', component: App},
-  {path: '/a', name: 'a', component: Hello}
+  {path: '/case', name: 'case', component: Case}
 ]
 // 3. 创建 router 实例，然后传 `routes` 配置
 // 你还可以传别的配置参数, 不过先这么简单着吧。

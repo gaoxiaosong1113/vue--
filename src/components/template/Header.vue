@@ -1,0 +1,18 @@
+<template>
+  <div class="wxc-head">
+    <div class="wxc-head-hd">
+      <div class="wxc-icon wxc-logo"><img src="../../assets/images/wxc-logo2.png" alt=""></div>
+    </div>
+    <div class="wxc-head-bd wxc-cell-primary">
+      <div class="wxc-position-eit">北京</div>
+    </div>
+    <div class="wxc-head-ft">
+      <i class="wxc-icon"><img src="../../assets/images/wxc-icon-circum.svg" alt=""></i>
+    </div>
+  </div>
+</template>
+<script>
+  export default{
+    name: 'header'
+  }
+</script>
