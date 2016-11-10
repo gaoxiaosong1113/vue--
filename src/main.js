@@ -7,12 +7,16 @@ import 'jquery'
 // 引入组件
 import App from './App'
 import Case from './components/case/Case.vue'
+import Designer from './components/designer/Designer.vue'
+import Tribal from './components/tribal/Tribal.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {path: '/', name: 'index', component: App},
-  {path: '/case', name: 'case', component: Case}
+  {path: '/case', name: 'case', component: Case},
+  {path: '/designer', name: 'designer', component: Designer},
+  {path: '/tribal', name: 'tribal', component: Tribal}
 ]
 // 3. 创建 router 实例，然后传 `routes` 配置
 // 你还可以传别的配置参数, 不过先这么简单着吧。

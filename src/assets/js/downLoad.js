@@ -34,11 +34,10 @@ var downLoad = {
       'position': 'relative',
       'z-index': '1',
       'display': 'block',
-      'height': window.innerHeight - this.scrollableHeadHeight + 'px' - $('.wxc-nav').height(),
+      'height': window.innerHeight - this.scrollableHeadHeight - $('.wxc-nav').height() + 'px',
       'marginTop': this.scrollableHeadHeight
     })
     this.body.css({
-      'overflow': 'hidden',
       'height': window.innerHeight + 'px'
     })
     this.options.slideBox.css({
@@ -121,7 +120,7 @@ var downLoad = {
   refreshFn: function (num) {
     var _this = this
     if (num <= 0) {
-      this.end = $(this.refresh).height() + 30
+      this.end = 65
       this.animationStar(this.end, 200)
       var isRefresh = this.options.refreshFn()
       if (isRefresh) {
