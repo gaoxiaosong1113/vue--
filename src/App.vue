@@ -1,62 +1,97 @@
 <template>
-  <div class="home wxc-main-vh bright-body">
-
-    <div class="wxc-head wxc-opcity">
-      <div class="wxc-head-hd">
-        <div class="wxc-icon wxc-logo"><img src="./assets/images/wxc-logo.png" alt=""></div>
+  <div class="calculator-box">
+    <div class="calculator-text">{{calculatorDefault}}</div>
+    <div class="calculator-key-warp">
+      <div class="calculator-key-num">
+        <div class="calculator-key-box">
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">AC</div>
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">+/-</div>
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">%</div>
+        </div>
+        <div class="calculator-key-box">
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">7</div>
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">8</div>
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">9</div>
+        </div>
+        <div class="calculator-key-box">
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">4</div>
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">5</div>
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">6</div>
+        </div>
+        <div class="calculator-key-box">
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">1</div>
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">2</div>
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">3</div>
+        </div>
+        <div class="calculator-key-box">
+          <div class="calculator-key calculator-key-xs calculator-key-default" data-value="AC" @click="key($event)">0</div>
+          <div class="calculator-key calculator-key-default" data-value="AC" @click="key($event)">.</div>
+        </div>
       </div>
-      <div class="wxc-head-bd wxc-cell-primary">
-        <div class="wxc-position-eit">北京</div>
-      </div>
-      <div class="wxc-head-ft">
-        <i class="wxc-icon"><img src="./assets/images/wxc-icon-circum-b.svg" alt=""></i>
+      <div class="calculator-key-algorithm">
+        <div class="calculator-key calculator-key-primary" data-value="AC" @click="key($event)">/</div>
+        <div class="calculator-key calculator-key-primary" data-value="AC" @click="key($event)">*</div>
+        <div class="calculator-key calculator-key-primary" data-value="AC" @click="key($event)">-</div>
+        <div class="calculator-key calculator-key-primary" data-value="AC" @click="key($event)">+</div>
+        <div class="calculator-key calculator-key-primary" data-value="AC" @click="key($event)">=</div>
       </div>
     </div>
-    <!-- banner -->
-    <banner></banner>
-    <div class="wxc-home-nav wxc-contents">
-      <a href="features.html#1" class="wxc-nav-box">
-        <i class="wxc-icon"><img src="./assets/images/wxc-icon-home-navOne-hot.svg" alt=""></i>
-        <p>绿色无醛</p>
-      </a>
-      <a href="features.html#2" class="wxc-nav-box">
-        <i class="wxc-icon"><img src="./assets/images/wxc-icon-home-navTow-hot.svg" alt=""></i>
-        <p>即装即住</p>
-      </a>
-      <a href="features.html#3" class="wxc-nav-box">
-        <i class="wxc-icon"><img src="./assets/images/wxc-icon-home-navFore-hot.svg" alt=""></i>
-        <p>高性价比</p>
-      </a>
-      <a href="features.html#4" class="wxc-nav-box">
-        <i class="wxc-icon"><img src="./assets/images/wxc-icon-home-navThree-hot.svg" alt=""></i>
-        <p>个性化设计</p>
-      </a>
-    </div>
-    <product></product>
-    <HomeReg></HomeReg>
-    <div class="wxc-footer">
-      <p class="wxc-text-center wxc-font-hint">© Copyrights 2016 Skong Technology Co., Ltd.</p>
-      <p class="wxc-text-center wxc-font-hint">京B2-20150072号 </p>
-    </div>
-    <FileFooter></FileFooter>
   </div>
 </template>
 
 <script>
-  import Banner from './components/home/Banner'
-  import Product from './components/home/Product'
-  import HomeReg from './components/home/HomeReg'
   import FileFooter from './components/template/Footer'
 
   export default {
     name: 'app',
+    data () {
+      return {
+        calculatorDefault: '0',
+        calculatorInit: ''
+      }
+    },
     components: {
-      Banner, FileFooter, HomeReg, Product
+      FileFooter
+    },
+    mounted () {
+
+    },
+    methods: {
+      key (event) {
+        var _this = this
+        if (this.calculatorDefault === '0') {
+          this.calculatorDefault = ''
+        }
+        if (event.toElement.textContent === 'AC') {
+          this.calculatorDefault = 0
+        } else if (event.toElement.textContent === '+/-') {
+          this.calculatorDefault = this.calculatorDefault * -1
+        } else if (event.toElement.textContent === '%') {
+          this.calculatorDefault = this.calculatorDefault / 100
+        } else if (event.toElement.textContent === '+') {
+          calculate(1)
+        } else if (event.toElement.textContent === '-') {
+          calculate(2)
+        } else if (event.toElement.textContent === '*') {
+          calculate(3)
+        } else if (event.toElement.textContent === '/') {
+          calculate(4)
+        } else {
+          this.calculatorDefault = this.calculatorDefault + event.toElement.textContent
+        }
+        function calculate (num) {
+          if (num === 1) {
+            _this.calculatorDefault = Number(_this.calculatorDefault) + Number(event.toElement.textContent)
+          } else if (num === 2) {
+            _this.calculatorDefault = Number(_this.calculatorDefault) - Number(event.toElement.textContent)
+          } else if (num === 3) {
+            _this.calculatorDefault = Number(_this.calculatorDefault) * Number(event.toElement.textContent)
+          } else if (num === 4) {
+            _this.calculatorDefault = Number(_this.calculatorDefault) / Number(event.toElement.textContent)
+          }
+        }
+      }
     }
   }
 </script>
 
-
-<style>
-
-</style>
