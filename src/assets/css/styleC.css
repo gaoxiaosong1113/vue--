@@ -637,6 +637,10 @@ textarea {
   padding: 20px 15px;
   font-size: 60px;
   font-weight: 100;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  white-space: normal;
+  word-break: break-all;
 }
 @media (min-width: 0px) and (max-width: 321px) {
   .calculator-box .calculator-key-warp .calculator-key-num .calculator-key-box .calculator-key.calculator-key-xs {
