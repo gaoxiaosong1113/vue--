@@ -64,17 +64,14 @@
         if (this.calculatorDefault === '0') {
           this.calculatorDefault = ''
         }
-        if (this.calculatorDefault.length >= 8) {
-          this.wrapFont = 'font-size:40px;'
-        } else {
-          this.wrapFont = ''
-        }
-        if (this.calculatorDefault.length >= 13) {
-          return
-        }
+
         if (this.calculatorState === -1) {
           this.calculatorDefault = ''
           this.calculatorState = 0
+        }
+
+        if (this.calculatorDefault.length >= 13) {
+          return
         }
         if (this.calculatorInit === true) {
           if (Number(this.calculatorPro) === Number(this.calculatorDefault)) {
@@ -93,6 +90,11 @@
         } else {
           this.calculatorDefault = this.calculatorDefault + event.toElement.textContent
           this.calculatorPro = this.calculatorDefault
+          if (this.calculatorDefault.length >= 9) {
+            this.wrapFont = 'font-size:40px;'
+          } else {
+            this.wrapFont = ''
+          }
         }
       },
       addition (event) {
@@ -118,8 +120,10 @@
       equal (event) {
         // 等于
         this.calculatorDefault = this.calculatorPro
-        if (this.calculatorDefault.toString().length >= 8) {
+        if (this.calculatorDefault.toString().length >= 9) {
           this.wrapFont = 'font-size:40px;'
+        } else {
+          this.wrapFont = ''
         }
         if (this.calculatorDefault.length >= 13) {
           this.calculatorDefault = this.calculatorDefault.substring(0, 12)

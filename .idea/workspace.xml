@@ -2,11 +2,177 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af59903e-cf33-42d0-b5ae-c142a602852b" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/js/sherd.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/css/styleC.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/404.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/features-gxhdz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/features-gxjb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/features-jzjz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/features-lswq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/icon-close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/icon-close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/red-close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-Verification.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-dataShow-img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-Verification.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-Verification.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-attention-succeed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-attention-succeed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-attention.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-attention.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-bank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-bank.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-case-hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-case-hot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-case.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-case.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-circum-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-circum-b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-circum.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-circum.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-collect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-collect.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-description.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-description.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-designer-hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-designer-hot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-designer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-designer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-directMessages.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-directMessages.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-em.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-em.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-eve-max.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-eve.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-failure.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-failure.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-ggmessage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade-box-eval.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade-box-z-eval.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade-box-z.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade-box-z.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade-box.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade-box.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade-cur-eval.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade-cur.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade-cur.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade-eval.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-grade.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-help.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-hot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-listFive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-listFore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-listOne.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-listSix.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-listThree.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-listTow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-navFore-hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-navFore-hot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-navOne-hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-navOne-hot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-navThree-hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-navThree-hot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-navTow-hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home-navTow-hot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-home.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-imgPost.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-imgPost.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-look.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-man.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-man.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-me-hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-me-hot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-me.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-me.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-mess-san.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-message.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-message.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-myOerder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-myOerder.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-pho.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-pho.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-poposs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-poposs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-position-www.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-position-www.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-position.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-position.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-qd-list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-qd-list.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-seach.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-seach.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-share.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-share.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-skong-order-schedule-no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-skong-order-schedule.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-skong-order-schedule.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-susess.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-susess.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-tel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-tel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-telposs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-telposs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-tribal-hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-tribal-hot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-tribal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-tribal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-user-min.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-user-toux.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-userContent-eval.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-userContent-tribal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-userContent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-userContent.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-woman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-woman.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-wsz-min.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-wsz.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-wxzf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-wzan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-wzan.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-x-wsz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-x-wsz.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-x-ysz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-x-ysz.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-xykzf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-ysz-min.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-ysz.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-yzan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-yzan.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-icon-zfb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-logo2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-product-img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-qq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-qq1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-qq1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-qq空间.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-qq空间.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-skong-img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-weibo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-weibo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-weixin-pyq.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-weixin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/wxc-weixin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/js/downLoad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/js/selectTouch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/js/sherdC.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/js/slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Hello.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/template/Header.vue" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/css/styleC.css" afterPath="$PROJECT_DIR$/src/assets/css/styleC.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/css/styleC.less" afterPath="$PROJECT_DIR$/src/assets/css/styleC.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/css/styleC.less" afterPath="$PROJECT_DIR$/src/assets/css/style.less" />
     </list>
     <ignored path="vue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,41 +193,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/build.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="141" column="32" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="122" column="57" selection-start-line="122" selection-start-column="57" selection-end-line="122" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styleC.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/css/styleC.less">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="880" column="20" selection-start-line="880" selection-start-column="20" selection-end-line="880" selection-end-column="20" />
+            <state relative-caret-position="442">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Footer.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/template/Footer.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -92,13 +258,11 @@
         <option value="$PROJECT_DIR$/src/components/case/CaseProduct.vue" />
         <option value="$PROJECT_DIR$/src/components/template/Header.vue" />
         <option value="$PROJECT_DIR$/src/assets/js/selectTouch.js" />
-        <option value="$PROJECT_DIR$/src/assets/js/sherdC.js" />
         <option value="$PROJECT_DIR$/src/components/case/Case.vue" />
         <option value="$PROJECT_DIR$/src/components/designer/designer.vue" />
         <option value="$PROJECT_DIR$/src/components/designer/designerBox.vue" />
         <option value="$PROJECT_DIR$/src/components/designer/Designer.vue" />
         <option value="$PROJECT_DIR$/src/components/designer/DesignerBox.vue" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/components/template/Footer.vue" />
         <option value="$PROJECT_DIR$/src/components/tribal/Tribal.vue" />
         <option value="$PROJECT_DIR$/src/components/tribal/TribalBox.vue" />
@@ -107,6 +271,8 @@
         <option value="$PROJECT_DIR$/config/index.js" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/src/assets/css/styleC.less" />
+        <option value="$PROJECT_DIR$/src/assets/js/sherdC.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/App.vue" />
       </list>
     </option>
@@ -229,7 +395,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,8 +420,18 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="vue-calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,7 +440,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
@@ -358,12 +538,12 @@
       <workItem from="1478484023389" duration="179000" />
       <workItem from="1479452884737" duration="2835000" />
       <workItem from="1479656017478" duration="168000" />
-      <workItem from="1479691864018" duration="6628000" />
+      <workItem from="1479691864018" duration="9444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46900000" />
+    <option name="totallyTimeSpent" value="49716000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/sherdC.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="245" column="29" selection-start-line="245" selection-start-column="29" selection-end-line="245" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/js/slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="730">
@@ -539,24 +712,10 @@
     <entry file="file://$PROJECT_DIR$/src/components/case/Case.vue" />
     <entry file="file://$PROJECT_DIR$/src/components/designer/DesignerBox.vue" />
     <entry file="file://$PROJECT_DIR$/src/components/designer/Designer.vue" />
-    <entry file="file://$PROJECT_DIR$/src/components/template/Footer.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/css/styleC.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/downLoad.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -575,13 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -655,19 +807,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/downLoad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -680,7 +831,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/css/styleC.less">
+    <entry file="file://$PROJECT_DIR$/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/sherd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="649">
           <caret line="880" column="20" selection-start-line="880" selection-start-column="20" selection-end-line="880" selection-end-column="20" />
@@ -688,10 +855,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/template/Footer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="141" column="32" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
+        <state relative-caret-position="136">
+          <caret line="122" column="57" selection-start-line="122" selection-start-column="57" selection-end-line="122" selection-end-column="57" />
           <folding />
         </state>
       </provider>

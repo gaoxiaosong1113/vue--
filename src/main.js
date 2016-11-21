@@ -2,8 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 // 引入静态资源
-require('./assets/css/styleC.css')
-require('./assets/Font-Awesome-3.2.1/css/font-awesome.min.css')
+require('./assets/css/style.css')
+// require('./assets/Font-Awesome-3.2.1/css/font-awesome.min.css')
 import 'jquery'
 // 引入组件
 import App from './App'
